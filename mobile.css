@@ -9,7 +9,7 @@
 		margin: 0;
 		min-height: 1200px;
 		padding: 0;
-		width: 100%;
+		width: 100vw;
 		z-index: 3;
 	}
 	#body.home {
@@ -23,7 +23,7 @@
 		overflow: hidden;
 		padding: 10% 0;
 		position: relative;
-		width: 95%;
+		width: 95vw;
 	}
 	#body.home .header div img.machine{
 		left: -200px;
@@ -34,7 +34,7 @@
 		margin: 0;
 		padding: 30% 0 10%;
 		text-align: center;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .header div h2 {
 		float: none;
@@ -50,18 +50,18 @@
 	}
 	#body.home .header div h3{
 		margin: 106px 0 0;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .header div ul, #body.home .footer div ul, #body.home .footer div ul li ul {
 		margin: 0;
 		padding: 10% 0;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .header div ul li:first-child, #body.home .header div ul li {
 		border: none;
 		float: none;
 		margin: 10% 0;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .header div ul li a{
 		margin: 0 auto;
@@ -70,33 +70,33 @@
 		margin: 0 auto;
 	}
 	#body.home .body div h1, #body.home .body div p {
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .footer div ul li:first-child, #body.home .footer div ul li, #body .header div .sidebar ul li ul {
 		float: none;
 		margin: 0 0 10%;
 		padding: 0;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .footer div ul li h1, #body.home .footer div ul li ul li h1, #body.home .footer div ul li ul li span {
 		float: none;
 		text-align: center;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .footer div ul li a{
-		height: 100%;
-		width: 100%;
+		height: 100vh;
+		width: 100vw;
 	}
 	#body.home .footer div ul li a img{
 		margin: 0 auto;
-		width: 90%;
+		width: 90vw;
 	}
 	#body.home .footer div ul li a span {
 		left: 46%;
 		top: 39%;
 	}
 	#body.home .footer div ul li ul li:first-child, #body.home .footer div ul li ul li {
-		width: 100%;
+		width: 100vw;
 	}
 	#body.home .footer div ul li ul li a.more{
 		float: none;
@@ -113,7 +113,7 @@
 	#body.about .header div h1, #body .header div h1, #body.about .header div h2, #body.about .header div p, #body.about .body div h2, #body.about .body div p, #body.about .footer div h2, #body.about .footer div p, #body.about .section div h2, #body.about .section div p, #body .header div ul li div h1, #body .header div ul li div p, #body .header div h2, #body .header div p, #body .header div .sidebar ul li h1, #body .header .contact h2 {
 		float: none;
 		text-align: center;
-		width: 100%;
+		width: 100vw;
 	}
 	#body.about .body div img, #body.about .footer div img, #body .header div ul li a img, #body .header div ul li div a.more, #body .header div .article ul li a.more, #body .header div .sidebar ul li ul li a img, #body .header div .sidebar ul li a img {
 		float: none;
@@ -122,7 +122,7 @@
 	#body .header div ul, #body .header div .article ul, #body .header div .sidebar ul {
 		max-width: none;
 		padding: 0;
-		width: 100%;
+		width: 100vw;
 	}
 	#body .header div ul li a, #body .header div .article ul li a, #body .header div .sidebar ul li a, #body .header div .sidebar ul li ul li a {
 		float: none;
@@ -134,22 +134,22 @@
 		float: none;
 		margin: 0;
 		padding: 10% 0;
-		width: 100%;
+		width: 100vw;
 	}
 	#body .header div .sidebar ul li ul li h2, #body .header div .sidebar ul li ul li span, #body .header div .article ul li h1, #body .header div .article ul li span, #body .header div .article ul li p, #body .header div .sidebar ul li h2, #body .header div .sidebar ul li span {
 		float: none;
 		padding: 2% 0 1%;
 		text-align: center;
-		width: 100%;
+		width: 100vw;
 	}
 	#body .header div form{
-		width: 100%;
+		width: 100vw;
 	}
 	#body .header div form input, #body .header div form textarea {
 		-webkit-appearance: none;
 		border-radius: 0;
 		margin: 0 auto 10%;
-		width: 90%;
+		width: 90vw;
 	}
 	#body .header div form input#submit{
 		-webkit-appearance: none;
@@ -158,15 +158,15 @@
 		margin: 0 auto;
 	}
 	#footer{
-		width: 100%;
+		width: 100vw;
 	}
 	#footer .connect{
-		width: 100%;
+		width: 100vw;
 	}
 	#footer .connect div, #footer .footnote div {
 		margin: 0 auto;
 		padding: 10% 0;
-		width: 95%;
+		width: 95vw;
 	}
 	#footer .connect div h1{
 		float: none;
@@ -187,7 +187,7 @@
 		margin: 0 10px;
 	}
 	#footer .footnote div p{
-		width: 100%;
+		width: 100vw;
 	}
 }
 @media only screen and (max-width : 959px) {
@@ -216,7 +216,7 @@
 		margin: 0 auto;
 		max-width: none;
 		min-height: 105px;
-		width: 95%;
+		width: 95vw;
 	}
 	#header div a.logo {
 		display: flex;
@@ -224,7 +224,7 @@
 		height: 60px;
 		margin: 5% 0 0;
 		padding: 0;
-		width: 79%;
+		width: 79vw;
 	}
 	#header div span#mobile-navigation {
 		background: transparent url(../images/mobile/mobile-menu.png) no-repeat;
@@ -250,7 +250,7 @@
 		position: absolute;
 		right: 3%;
 		top: 64px;
-		width: 92%;
+		width: 92vw;
 		z-index: 1000;
 	}
 	#header div > ul#navigation > li {
@@ -261,7 +261,7 @@
 		padding: 0;
 		position: relative;
 		text-align: left;
-		width: 100%;
+		width: 100vw;
 	}
 	#header div > ul#navigation > li:first-child {
 		border-top: 0;
@@ -303,7 +303,7 @@
 		position: static;
 		right: 0;
 		text-align: left;
-		width: 100%;
+		width: 100vw;
 		z-index: 999;
 	}
 	#header div ul#navigation li ul, #header div ul#navigation li:hover ul {
@@ -322,7 +322,7 @@
 		margin: 0;
 		padding: 0;
 		justify-content:left;
-		width: 100%;
+		width: 100vw;
 	}
 	#header div ul#navigation li ul li:first-child {
 		border: none;

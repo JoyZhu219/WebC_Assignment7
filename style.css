@@ -145,7 +145,7 @@ img {
 	min-height: 808px;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.home {
 	background: none;
@@ -153,14 +153,14 @@ img {
 	min-height: 1308px;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.home .header {
 	background: none;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.home .header div {
 	margin: 0 auto;
@@ -276,7 +276,7 @@ img {
 	height: 156px;
 	margin: 0;
 	padding: 0;
-	width: 235px;
+	width: 15vw;
 }
 #body.home .header div ul li a img {
 	cursor: pointer;
@@ -297,7 +297,7 @@ img {
 	min-height: 168px;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.home .body div {
 	margin: 0 auto;
@@ -316,7 +316,7 @@ img {
 	padding: 0;
 	justify-content:center;
 	text-transform: uppercase;
-	width: 780px;
+	width: 70vw;
 }
 #body.home .body div p {
 	color: #ffffff;
@@ -328,7 +328,7 @@ img {
 	margin: 0 auto;
 	padding: 0;
 	justify-content:center;
-	width: 780px;
+	width: 90vw;
 }
 #body.home .body div p a {
 	color: #ffffff;
@@ -348,7 +348,7 @@ img {
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.home .footer div {
 	margin: 0 auto;
@@ -374,7 +374,7 @@ img {
 	float: left;
 	margin: 0 0 0 10px;
 	padding: 0 0 0 20px;
-	width: 440px;
+	width: 50vw;
 }
 #body.home .footer div ul li h1 {
 	color: #FFFFFF;
@@ -400,7 +400,7 @@ img {
 	margin: 0;
 	position: relative;
 	padding: 0;
-	width: 460px;
+	width: 100vw;
 }
 #body.home .footer div ul li a img {
 	cursor: pointer;
@@ -443,13 +443,13 @@ img {
 	margin: 0;
 	overflow: hidden;
 	padding: 39px 10px 38px 0;
-	width: 440px;
+	width: 100vw;
 }
 #body.home .footer div ul li ul li:first-child {
 	border: medium none;
 	margin: 0;
 	padding: 0 0 38px;
-	width: 440px;
+	width: 100vw;
 }
 #body.home .footer div ul li ul li a {
 	display: flex;
@@ -457,7 +457,7 @@ img {
 	height: 90px;
 	margin: 0 20px 0 0;
 	padding: 0;
-	width: 100px;
+	width: 90vw;
 }
 #body.home .footer div ul li ul li a img {
 	cursor: pointer;
@@ -483,7 +483,7 @@ img {
 	padding: 4px 0 8px;
 	text-align: left;
 	text-transform: uppercase;
-	width: 310px;
+	width: 80vw;
 }
 #body.home .footer div ul li ul li span {
 	color: #FFFFFF;
@@ -531,15 +531,15 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   min-height: 0;
 }
 
 .video-gallery {
   margin-top: 3em;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .video-gallery .video {
@@ -630,19 +630,19 @@ img {
     display: flex;
     height: 56vw;
     opacity: 1;
-    width: 50%;
+    width: 50vw;
   }
   25% {
     display: flex;
     height: 56vw;
     opacity: 1;
-    width: 50%;
+    width: 50vw;
   }
   49% {
     display: flex;
     height: 56vw;
     opacity: 0;
-    width: 50%;
+    width: 50vw;
   }
   50% {
     display: none;
@@ -666,13 +666,13 @@ img {
     display: flex;
     height: 56vw;
     opacity: 0;
-    width: 50%;
+    width: 50vw;
   }
   100% {
     display: block;
     height: 56vw;
     opacity: 1;
-    width: 50%;
+    width: 50vw;
   }
 }
 @supports(display: grid) {
@@ -853,7 +853,7 @@ img {
 	padding: 0;
 	justify-content:center;
 	text-transform: uppercase;
-	width: 820px;
+	width: 50vw;
 }
 #body.about .header div p {
 	color: #ffffff;
@@ -865,7 +865,7 @@ img {
 	margin: 0 auto;
 	padding: 0;
 	justify-content:center;
-	width: 820px;
+	width: 100vw;
 }
 #body.about .header div p a {
 	color: #ffffff;
@@ -886,7 +886,7 @@ img {
 	min-height: 253px;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.about .body div {
 	margin: 0 auto;
@@ -905,7 +905,7 @@ img {
 	padding: 0;
 	text-align: left;
 	text-transform: uppercase;
-	width: 620px;
+	width: 50vw;
 }
 #body.about .body div p {
 	color: #ffffff;
@@ -918,7 +918,7 @@ img {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	width: 620px;
+	width: 40vw;
 }
 #body.about .body div p a {
 	color: #ffffff;
@@ -945,7 +945,7 @@ img {
 	margin: 0;
 	min-height: 366px;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body.about .footer div {
 	margin: 0 auto;
@@ -1023,7 +1023,7 @@ img {
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	width: 780px;
+	width: 80vw;
 }
 #body.about .section div p {
 	color: #ffffff;
@@ -1035,7 +1035,7 @@ img {
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
-	width: 780px;
+	width: 50vw;
 }
 #body.about .section div p a {
 	color: #ffffff;
@@ -1053,7 +1053,7 @@ img {
 #body .header {
 	margin: 0 auto;
 	padding: 0;
-	width: 100%;
+	width: 100vw;
 }
 #body .header div ul {
 	display: inline-block;
@@ -1190,7 +1190,7 @@ img {
 	padding: 53px 0 27px;
 	justify-content:center;
 	text-transform: uppercase;
-	width: 780px;
+	width: 100vw;
 }
 #body .header div p {
 	color: #FFFFFF;
@@ -1202,7 +1202,7 @@ img {
 	margin: 0 auto 48px;
 	padding: 0;
 	justify-content:center;
-	width: 780px;
+	width: 100vw;
 }
 #body .header div p a {
 	color: #ffffff;
@@ -1546,13 +1546,13 @@ img {
 	padding: 8px 0 62px;
 	justify-content:center;
 	text-transform: uppercase;
-	width: 500px;
+	width: 100vw;
 }
 #body .header div form {
 	display: block;
 	margin: 0 auto;
 	padding: 0;
-	width: 461px;
+	width: 80vw;
 }
 #body .header div form input {
 	background-color: #A3A3A3;
